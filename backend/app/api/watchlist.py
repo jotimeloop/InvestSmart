@@ -108,3 +108,4 @@ def remove_from_watchlist(
     db.delete(item)
     db.commit()
     return {"status": "success", "message": "Removed from watchlist."}
+

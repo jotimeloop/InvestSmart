@@ -242,3 +242,4 @@ export const AddHoldingModal: React.FC<AddHoldingModalProps> = ({
     </div>
   );
 };
+

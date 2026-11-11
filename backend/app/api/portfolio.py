@@ -303,3 +303,4 @@ def delete_holding(
     db.delete(holding)
     db.commit()
     return {"status": "success", "message": "Holding deleted successfully."}
+

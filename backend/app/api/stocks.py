@@ -36,3 +36,4 @@ def get_stock(symbol: str):
     if not stock:
         raise HTTPException(status_code=404, detail=f"Stock symbol '{symbol}' not found in Indian market database.")
     return stock
+

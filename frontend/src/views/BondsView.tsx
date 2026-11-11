@@ -425,3 +425,4 @@ export const BondsView: React.FC<BondsViewProps> = ({ bonds, onOpenAddHolding })
     </div>
   );
 };
+

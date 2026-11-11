@@ -28,3 +28,4 @@ def get_quick_prompts() -> List[Dict[str, str]]:
         {"id": "sip", "text": "How much difference does a 10% annual Step-Up SIP make over 15 years?", "icon": "TrendingUp"},
         {"id": "audit", "text": "Review my investment portfolio and suggest rebalancing steps.", "icon": "Sparkles"}
     ]
+

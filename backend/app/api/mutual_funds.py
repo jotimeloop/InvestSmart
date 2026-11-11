@@ -47,3 +47,4 @@ def compare_mutual_funds(req: FundCompareRequest):
             "lowest_expense_ratio": lowest_expense
         }
     }
+

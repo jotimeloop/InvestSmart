@@ -426,3 +426,4 @@ export const MutualFundsView: React.FC<MutualFundsViewProps> = ({ funds, onOpenA
     </div>
   );
 };
+

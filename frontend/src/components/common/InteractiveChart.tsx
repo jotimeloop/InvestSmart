@@ -127,3 +127,4 @@ export const InteractiveChart: React.FC<InteractiveChartProps> = ({
     </div>
   );
 };
+

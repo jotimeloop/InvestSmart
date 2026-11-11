@@ -86,3 +86,4 @@ def delete_alert(
     db.delete(alert)
     db.commit()
     return {"status": "success", "message": "Alert deleted."}
+

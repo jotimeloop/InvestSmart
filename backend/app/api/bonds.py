@@ -53,3 +53,4 @@ def find_best_bonds(req: BestBondFinderRequest):
         "top_recommendation": top_pick,
         "recommendations": ranked_bonds[:5]
     }
+

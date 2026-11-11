@@ -210,3 +210,4 @@ export const AIAssistantModal: React.FC<AIAssistantModalProps> = ({
     </div>
   );
 };
+

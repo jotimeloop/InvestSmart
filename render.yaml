@@ -21,3 +21,4 @@ databases:
     region: singapore
     databaseName: investsmart_db
     user: investsmart_user
+

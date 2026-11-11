@@ -98,3 +98,4 @@ def compare_assets(req: CompareAssetsRequest):
         years=req.duration_years,
         tax_slab_pct=req.tax_bracket_pct
     )
+

@@ -310,3 +310,4 @@ export const PortfolioView: React.FC<PortfolioViewProps> = ({
     </div>
   );
 };
+

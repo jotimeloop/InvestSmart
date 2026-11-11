@@ -624,3 +624,4 @@ class FinancialDataService:
         return ranked
 
 financial_service = FinancialDataService()
+

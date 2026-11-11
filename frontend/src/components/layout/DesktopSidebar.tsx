@@ -149,3 +149,4 @@ export const DesktopSidebar: React.FC<DesktopSidebarProps> = ({
     </aside>
   );
 };
+

@@ -143,3 +143,4 @@ export const InstallBanner: React.FC = () => {
     </>
   );
 };
+

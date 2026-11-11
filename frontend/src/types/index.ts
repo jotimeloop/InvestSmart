@@ -181,3 +181,4 @@ export interface AIChatMessage {
   suggested_actions?: string[];
   timestamp: string;
 }
+
