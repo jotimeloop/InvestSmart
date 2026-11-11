@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: investsmart-pwa
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: investsmart-postgres
+          property: connectionString
+
+databases:
+  - name: investsmart-postgres
+    plan: free
+    region: singapore
+    databaseName: investsmart_db
+    user: investsmart_user
