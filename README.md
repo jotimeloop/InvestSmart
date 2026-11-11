@@ -191,3 +191,5 @@ InvestSmart automatically creates all relational tables on startup (`users`, `po
 
 ## 📄 License
 InvestSmart is released under the **MIT License**.
+
+# InvestSmart
